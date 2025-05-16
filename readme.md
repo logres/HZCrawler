@@ -1,5 +1,8 @@
 # 说明
 
+## 环境
+
+安装python, 执行pip install -r requirements.txt, 然后 python main.py.
 
 
 ## Task配置
