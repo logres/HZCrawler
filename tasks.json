@@ -1,0 +1,13 @@
+[
+  {
+    "task_id": "task_001",
+    "device_id": "WL071534400",
+    "property_name": "met_bar",
+    "mode": "incremental",
+    "status": "pending",
+    "last_run": "2025-05-17T01:52:59.286250",
+    "result_file": "./data/WL071534400_met_bar_data.json",
+    "last_record_time_stamp": 1747417948778,
+    "record_num": 22324
+  }
+]
