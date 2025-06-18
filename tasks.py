@@ -17,7 +17,7 @@ class Task:
 
     def __post_init__(self):
         if not self.result_file:
-            filename = f"{self.device_id}_{self.property_name}_data.json"
+            filename = f"""{self.device_id}[{self.task_id}]_{self.property_name}_data.json"""
             default_dir = "./data"
             os.makedirs(default_dir, exist_ok=True)
             self.result_file = os.path.join(default_dir, filename)

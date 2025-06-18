@@ -73,6 +73,7 @@ def fetch_device_data(task_src: Task) -> Task:
         json.dump(combined, f, indent=2, ensure_ascii=False)
 
     print(f"Fetched {len(data)} records saved to {result_file}")
+    
     task.last_run = datetime.now()
     if data:
         latest_ts = parse_timestamp(combined[0])
